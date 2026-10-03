@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Keep Git configuration files visible
+!.gitignore
+
+# Keep the public README
+!README.md
+
+# Allow the public assets directory
+!assets/
+!assets/readme/
+
+# Allow public README assets
+!assets/readme/**
+
+# Optional public documentation
+!docs/
+!docs/**
+
+# Keep repository metadata if added later
+!LICENSE
+!SECURITY.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
